@@ -22,3 +22,4 @@ spec:
   - hosts:
     - {{ .Values.host_name }}
     secretName: {{ .Values.certificate_secret_name }}
+    
